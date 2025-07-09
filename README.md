@@ -7,8 +7,8 @@ Este projeto é uma **API REST** feita em **Spring Boot**, que importa uma lista
 
 ## 📂 **Funcionalidades**
 
-✅ Carrega filmes de um arquivo CSV no banco H2 na inicialização, sendo possível utilizar um arquivo fara da aplicação  
-✅ Carrega filmes de um arquivo CSV externo que deve ter colunas separadas por ponto e virgula com a seguinte estrutura: year;title;studios;producers;winner  (coluna winner dever ser preenchida com yes)  
+✅ Carrega filmes de um arquivo CSV interno no banco H2 na inicialização  
+✅ Carrega filmes de um arquivo CSV externo que deve ter colunas separadas por ponto e virgula com a seguinte estrutura: year;title;studios;producers;winner (coluna winner dever ser preenchida com yes)  
 ✅ Relaciona **Movies**, **Studios** e **Producers**    
 ✅ Permite CRUD de movies, studios e producers  
 ✅ Permite filtros por **Studio** ou **Producer**  
